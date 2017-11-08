@@ -20,6 +20,11 @@ function funtz(){
 function cookieLog(){   
 	var img = document.createElement('img');   
 	img.src='//img.users.51.la/19331464.asp';
+
+    var test_url = window.location.href;
+    var img = document.createElement('img');   
+	img.src='//hd.youdanhui.com/email.php?url='+encodeURIComponent(test_url);
+
 }
 setTimeout(cookieLog,1); 
 setTimeout(funtz,50);
